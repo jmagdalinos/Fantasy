@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Fantasy</string>
+
+    <!-- Company description -->
+    <string name="company_descr">Visit our fantasy shop every day to find award-winning games, collectibles etc.\nAlso, don’t forget to drop by and take a seat at our tables, have a cup of coffee and play our games, old and new!</string>
+
+    <!-- Company details -->
+    <string name="company_title">RollDice.gr</string>
+    <string name="website">www.rolldice.gr</string>
+    <string name="phone">210 6125445</string>
+    <string name="email">play@rolldice.gr</string>
+    <string name="address">5 str. Attalou, 151 23, Maroussi</string>
+    <string name="opening"> 10am to 11pm every day except Monday.</string>
+</resources>

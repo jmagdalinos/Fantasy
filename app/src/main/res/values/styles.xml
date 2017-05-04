@@ -10,21 +10,11 @@
     </style>
 
     <!-- Style for Title text -->
-    <style name="titleText_Portrait">
-        <item name="android:background">@color/colorPrimary</item>
+    <style name="titleText">
+        <item name="android:background">@color/mainColor</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:textSize">@dimen/textSize_Title_Text</item>
-        <item name="android:paddingLeft">@dimen/padding_Title_Text</item>
-        <item name="android:paddingRight">@dimen/padding_Title_Text</item>
-        <item name="android:elevation">@dimen/elevation_Title_Text</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:gravity">center_vertical</item>
-    </style>
-
-    <style name="titleText_Landscape">
-        <item name="android:textColor">#ffffff</item>
-        <item name="android:textSize">@dimen/textSize_Title_Text</item>
-        <item name="android:paddingRight">@dimen/padding_Title_Text</item>
+        <item name="android:padding">@dimen/padding_Title_Text</item>
         <item name="android:elevation">@dimen/elevation_Title_Text</item>
         <item name="android:textStyle">bold</item>
         <item name="android:gravity">center_vertical</item>
@@ -41,21 +31,21 @@
     <!-- Style for main text in portrait mode -->
     <style name="mainText">
         <item name="android:layout_marginTop">@dimen/marginTopBottom_Main_Text</item>
-        <item name="android:layout_marginBottom">@dimen/marginTopBottom_Main_Text</item>
         <item name="android:textColor">@color/mainTextColor</item>
     </style>
 
     <!-- Style for main text in landscape mode -->
     <style name="mainTextLandscape">
-        <item name="android:layout_margin">@dimen/marginTopBottom_Main_Text</item>
+        <item name="android:layout_marginTop">@dimen/marginTopBottom_Main_Text</item>
+        <item name="android:layout_marginBottom">@dimen/marginTopBottom_Main_Text</item>
         <item name="android:textColor">@color/mainTextColor</item>
         <item name="android:gravity">center_vertical</item>
     </style>
 
-    <!-- Style for vertical line in landscape mode -->
-    <style name="verticalDivider">
+    <!-- Style for line -->
+    <style name="vertical">
         <item name="android:background">@color/mainColor</item>
-        <item name="android:layout_margin">@dimen/margin_Vertical_Divider</item>
+        <item name="android:layout_margin">@dimen/margin_Divider</item>
     </style>
 
     <!-- Style for text in the bottom banner -->

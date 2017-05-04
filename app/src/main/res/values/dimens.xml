@@ -15,9 +15,9 @@
     <dimen name="padding_Main_Text">16dp</dimen>
     <dimen name="marginTopBottom_Main_Text">16dp</dimen>
 
-    <!-- Vertical Divider dimensions -->
-    <dimen name="width_Vertical_Divider">1dp</dimen>
-    <dimen name="margin_Vertical_Divider">8dp</dimen>
+    <!-- Divider dimensions -->
+    <dimen name="width_height_Divider">1dp</dimen>
+    <dimen name="margin_Divider">16dp</dimen>
     
     <!-- Icon dimensions -->
     <dimen name="widthHeight_Icon">18dp</dimen>
